@@ -18,16 +18,22 @@ main {
   gap: 30px;
 }
 
-h6 {
+h2 {
   color: var(--botão-card-e-texto);
+  text-transform: uppercase;
   letter-spacing: 6px;
+  font-size: 1rem;
 }
 
 .texto {
   width: 440px;
-  font-size: 24px;
+  font-size: 1.4rem;
   color: var(--texto);
   text-align: center;
+}
+
+picture img {
+  width: 100%;
 }
 
 button {
@@ -47,12 +53,16 @@ button:hover {
   box-shadow: 0 3px 15px hsl(150, 100%, 66%);
 }
 
-@media(max-width: 600px){
+@media(max-width: 700px){
   main {
     width: 80%;
   }
 
   .texto {
     max-width: 100%;
+  }
+
+  h2 {
+    font-size: 0.7rem;
   }
 }
