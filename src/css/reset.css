@@ -1,0 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --texto: hsl(193, 38%, 86%);
+  --botão-card-e-texto: hsl(150, 100%, 66%);
+  --card: hsl(217, 19%, 24%);
+  --fundo: hsl(218, 23%, 16%);
+}

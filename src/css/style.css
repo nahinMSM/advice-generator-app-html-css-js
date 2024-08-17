@@ -1,0 +1,58 @@
+body {
+  height: 100vh;
+  font-family: 'Manrope', sans-serif;
+  background: var(--fundo);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  position: relative;
+  border-radius: 10px;
+  padding: 50px 50px 60px;
+  background: var(--card);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+h6 {
+  color: var(--botão-card-e-texto);
+  letter-spacing: 6px;
+}
+
+.texto {
+  width: 440px;
+  font-size: 24px;
+  color: var(--texto);
+  text-align: center;
+}
+
+button {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  border: none;
+  background: none;
+  position: absolute;
+  bottom: -30px;
+  cursor: pointer;
+  transition: 0.3s;
+  background-color: var(--botão-card-e-texto);
+}
+
+button:hover {
+  box-shadow: 0 3px 15px hsl(150, 100%, 66%);
+}
+
+@media(max-width: 600px){
+  main {
+    width: 80%;
+  }
+
+  .texto {
+    max-width: 100%;
+  }
+}
