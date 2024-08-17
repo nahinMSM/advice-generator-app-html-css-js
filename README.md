@@ -30,14 +30,12 @@ Os usuários devem ser capazes de:
 
 ![](./src/design/active-states.jpg)
 ![](./src/design/desktop-design.jpg)
-<div style="text-align: center;">
-  <img src="./src/design/mobile-design.jpg">
-</div>
+![](./src/design/mobile-design.jpg)
 
 ### Links
 
-- URL da solução: [Adicionar URL da solução aqui](https://sua-url-da-solucao.com)
-- URL do site ao vivo: [Adicionar URL do site aqui](https://seu-site-ao-vivo.com)
+- URL da solução: [Click Aqui](https://www.frontendmentor.io/solutions/advice-generator-app-qE_11WjoDy)
+- URL do site ao vivo: [Click Aqui](https://advice-generato.netlify.app/)
 
 ## Meu processo
 
